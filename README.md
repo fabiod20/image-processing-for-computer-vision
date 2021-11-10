@@ -5,7 +5,7 @@ This repository contains the final project of the **Image Processing for Compute
 The aim of the project is to perform **Instance Segmentation** on a subset of the [Cityscapes dataset](https://www.cityscapes-dataset.com/).
 
 ## Project
-The project, developed in team of 4, is based on the **Mask R-CNN** architecture proposed by [Facebook](https://arxiv.org/pdf/1703.06870.pdf). To be more specific, we used a version of the network implemented by [Matterport](https://github.com/matterport/Mask_RCNN).
+The project, developed in team of 4, is based on the **Mask R-CNN** architecture proposed by [Facebook](https://arxiv.org/pdf/1703.06870.pdf). To be more specific, we used a version of the network implemented by [Matterport](https://github.com/matterport/Mask_RCNN), pretrained on the [COCO dataset](https://cocodataset.org/#home).
 - [utils-cityscapes.ipynb](https://github.com/fabiod20/image-processing-for-computer-vision/blob/main/utils/utils-cityscapes.py) contains some classes needed to adapt the network to Cityscapes dataset.
 - [inspect-dataset-cityscapes.ipynb](https://github.com/fabiod20/image-processing-for-computer-vision/blob/main/notebooks/inspect-dataset-cityscapes.ipynb) shows an *Explorative Data Analysis* conducted at a preliminary stage.
 - [hp-tuning-cityscapes.ipynb](https://github.com/fabiod20/image-processing-for-computer-vision/blob/main/notebooks/hp-tuning-cityscapes.ipynb) shows the *hyperparameter tuning* stage, which has been performed using **KerasTuner**.
